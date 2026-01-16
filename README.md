@@ -39,14 +39,14 @@ hospital-management-system-sql/
 
 ## ⚙️ Setup Instructions
 
-### Step 1: Create Database & Tables
+## Step 1: Create Database & Tables
 
 Run this file:
 schema/create_tables.sql
 
 ---
 
-### Step 2: Load CSV Data
+## Step 2: Load CSV Data
 
 Open and run:
 data/load_data.sql
@@ -55,17 +55,31 @@ Make sure CSV file paths are correctly configured inside the script.
 
 ---
 
-### Step 3: Run Queries
+## Step 3: Run SQL Queries
 
-Execute SQL queries from:
-queries/
+All SQL queries are organized inside the `queries` folder:
 
-Examples:
+### basic_queries.sql
+- View all tables
+- Basic SELECT operations
+- Table row counts
 
-- basic_queries.sql
-- joins_queries.sql
-- advanced_analytics.sql
-- window_functions.sql
+### join_queries.sql
+- Patient + Doctor + Appointment joins
+- Completed appointment reports
+- Multi-table relational queries
+
+### aggregation_queries.sql
+- Revenue analysis
+- Appointment statistics
+- KPI based analytics
+- Group By and Having queries
+
+### window_functions.sql
+- Row number ranking
+- Latest records per doctor
+- Consecutive appointment gap analysis
+- Advanced analytical SQL queries
 
 ---
 

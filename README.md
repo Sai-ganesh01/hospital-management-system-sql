@@ -1,3 +1,9 @@
+![MySQL](https://img.shields.io/badge/Database-MySQL-blue)
+![SQL](https://img.shields.io/badge/Language-SQL-orange)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
+![Open Source](https://img.shields.io/badge/Open%20Source-Yes-success)
+
+
 # 🏥 Hospital Management System - SQL Project
 
 A real-world SQL project that simulates a Hospital Management System database.  
